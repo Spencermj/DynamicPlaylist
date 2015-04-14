@@ -8,6 +8,11 @@ We want to use [Echonest Playlist] to create an interactive dynamic playlist.
 
 # Resources
 1. [Echonest Playlist]
+2. [Dynamic Playlist]
+3. [Playlist Example]
+4. [Feedback]
+5. [Taste Profile]
+6. [Taste Profile From Directory]
 
 ### 1. Creating a dynamic playlist using [Dynamic Playlist]
 A dynamic playlist allows much more interactivity and personalization than a static playlist. You can use a few artists, songs, or genres of your choice to create a static playlist that represents your musical preference fairly well, but this playlist will have nowhere near as much versatility and interactivity as a dynamic playlist. Each dynamic playlist created instantiates a new session with a unique session ID, this ID lasts for 24 hours and holds all the information about the playlist. Dynamic playlists keep track of the songs that have already been played as well as any preferences set by the user in real time such as banned/skipped songs and song ratings. By keeping track of previously played songs as well as the user's opinion of certain songs, the playlist can adapt in real time and more accurately match the user's musical preference.
@@ -77,7 +82,7 @@ Much like a session_catalog, a Taste Profile holds all of a certain user's music
   }
  ]
 ```
-You might ask why anyone would use a Taste Profile to create static playlists when dynamic playlists allow all the same functionality, one of the main reasons for this is because you can create a Taste Profile representing your musical tastes before you even create a playlist. The information contained within a session_catalog is created after the user has given input on songs played by during their session, this means that it will only start accurately depicting your musical preferences after you have given your opinion on a great deal of songs. TASTE PROFILE DIRECTORY
+You might ask why anyone would use a Taste Profile to create static playlists when dynamic playlists allow all the same functionality, one of the main reasons for this is because you can create a Taste Profile representing your musical tastes before you even create a playlist. The information contained within a session_catalog is created after the user has given input on songs played by during their session, this means that it will only start accurately depicting the user's musical preferences after they have given their opinion on a large number of songs. As shown by [Taste Profile From Directory], it is possible to create a Taste Profile that depicts the musical tastes of the user based off a directory of .mp3 files. The initial paramaters for creating a dynamic playlist are anywhere from one to five artists, songs, or genres; although the playlist created from these paramaters might be sufficient, using a Taste Profile allows the user to begin their playlist with an accurate depiction of their musical tastes.
 
 This resource answers question 3: what is a taste profile? 
 
