@@ -31,7 +31,7 @@ This resource answers question 2: how do you add interactive elements to a dynam
 
 
 ### 3. What is a [Taste Profile]?
-
+Much like a session_catalog, a Taste Profile holds all of a certain user's musical preferences. Unlike a session_catalog, a Taste Profile will never expire. Also unlike a session_catalog, Taste Profiles can only be used to create static playlists. This means that a Taste Profile is essentially how to give a static playlist more individuality, but it still lacks interactivity. A Taste Profile is 
 
 This resource answers question 3: what is a taste profile? 
 
@@ -39,3 +39,5 @@ This resource answers question 3: what is a taste profile?
 [Dynamic Playlist]: http://developer.echonest.com/docs/v4/standard.html#dynamic
 [Playlist Example]: https://github.com/echonest/python-tutorials/blob/master/playlist_api/02_playlist_dynamic_artist.py
 [Feedback]: http://developer.echonest.com/docs/v4/standard.html#dynamic-feedback
+[Taste Profile]: http://developer.echonest.com/docs/v4/catalog.html
+[Taste Profile From Directory]: http://developer.echonest.com/raw_tutorials/faqs/faq_02.html
