@@ -33,7 +33,7 @@ This resource answers question 2: how do you add interactive elements to a dynam
 ### 3. What is a [Taste Profile]?
 Much like a session_catalog, a Taste Profile holds all of a certain user's musical preferences. Unlike a session_catalog, a Taste Profile will never expire. Also unlike a session_catalog, Taste Profiles can only be used to create static playlists. This means that a Taste Profile is essentially how to give a static playlist more individuality, but it still lacks interactivity. A Taste Profile is made up of an item block containing all the basic information about a song as well as a play count, a skip count, a rating, and booleans representing whether the song has been favorited or banned. THe following is the format for a general json item block:
 
-```python
+```
 [
  {
  "action":action code. one of ("delete","update","play","skip". Default is "update")
